@@ -1,0 +1,46 @@
+/* HOME PAGE */
+/* Countdown */
+#countdown h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+
+#countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+#countdown  li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+  #countdown  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  #countdown li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  #countdown li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+/* ABOUT PAGE */
+.about-heading-content .intro-button{
+  position: relative;
+  top: -25px;
+  width: fit-content;
+}
+@media all and (min-width: 768px) {
+  .about-heading-img{
+    width: 50%;
+    transform: translate(50%);
+  }
+}
