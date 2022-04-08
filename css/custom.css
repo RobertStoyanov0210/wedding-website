@@ -12,11 +12,16 @@ body,h1,h2,h3,h4,h5,h6,a,p{
   font-family: 'Roboto Slab', serif;
 }
 .site-heading .site-heading-lower{
+  color: white;
   font-family: 'Lobster', cursive;
   text-transform: capitalize;
   text-decoration: none;
   transition: all .3s ease-in;
 }
+.site-heading .site-heading-lower:hover{
+  color: inherit;
+}
+
 
 /* Countdown */
 #countdown h1 {
@@ -62,4 +67,24 @@ body,h1,h2,h3,h4,h5,h6,a,p{
     width: 50%;
     transform: translate(50%);
   }
+}
+
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+.footer li{
+  list-style: none;
+}
+.footer .footer-robert,
+.footer .footer-stef{
+width: 50%;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+}
+.socials p:not(:last-child){
+  padding-right: 20px;
 }
