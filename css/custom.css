@@ -1,4 +1,23 @@
+/* Roboto Slab / Lobster */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body,h1,h2,h3,h4,h5,h6,a,p{
+  font-family: 'Roboto Slab', serif;
+} 
+
 /* HOME PAGE */
+
+/* Header/Title */
+.site-heading-upper{
+  font-family: 'Roboto Slab', serif;
+}
+.site-heading .site-heading-lower{
+  font-family: 'Lobster', cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all .3s ease-in;
+}
+
 /* Countdown */
 #countdown h1 {
   font-weight: normal;
