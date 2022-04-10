@@ -5,11 +5,13 @@ body,h1,h2,h3,h4,h5,h6,a,p{
   font-family: 'Roboto Slab', serif;
 } 
 
+
 /* HOME PAGE */
 
 /* Header/Title */
 .site-heading-upper{
   font-family: 'Roboto Slab', serif;
+  color: #C2B7AA !important;
 }
 .site-heading .site-heading-lower{
   color: white;
@@ -19,7 +21,7 @@ body,h1,h2,h3,h4,h5,h6,a,p{
   transition: all .3s ease-in;
 }
 .site-heading .site-heading-lower:hover{
-  color: inherit;
+  color: rgb(249,242,234) !important;
 }
 
 
@@ -97,4 +99,7 @@ width: 50%;
 }
 .socials p:not(:last-child){
   padding-right: 20px;
+}
+.socials a{
+  color: #C2B7AA;
 }
