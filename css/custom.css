@@ -56,6 +56,16 @@ body,h1,h2,h3,h4,h5,h6,a,p{
     font-size: calc(3.375rem * var(--smaller));
   }
 }
+
+@media all and (max-width: 425px){
+ #countdown ul{
+   display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 0;
+ }
+}
+
 /* ABOUT PAGE */
 .about-heading-content .intro-button{
   position: relative;
