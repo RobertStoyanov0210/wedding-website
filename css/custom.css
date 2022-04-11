@@ -5,6 +5,9 @@ body,h1,h2,h3,h4,h5,h6,a,p{
   font-family: 'Roboto Slab', serif;
 } 
 
+.btn{
+  text-transform: uppercase;
+}
 
 /* HOME PAGE */
 
@@ -47,15 +50,16 @@ body,h1,h2,h3,h4,h5,h6,a,p{
 
 @media all and (max-width: 768px) {
   #countdown  h1 {
-    font-size: calc(1.5rem * var(--smaller));
+    /* font-size: calc(1.5rem * var(--smaller)); */
   }
   
   #countdown li {
-    font-size: calc(1.125rem * var(--smaller));
+padding-bottom: 0;
   }
   
   #countdown li span {
-    font-size: calc(3.375rem * var(--smaller));
+    font-size: 50px;
+    /* font-size: calc(3.375rem * var(--smaller)); */
   }
 }
 
