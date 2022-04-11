@@ -9,6 +9,14 @@ body,h1,h2,h3,h4,h5,h6,a,p{
   text-transform: uppercase;
 }
 
+@media all and (max-width: 425px){
+  .section-heading-upper,.section-heading-lower{
+    text-align: center;
+  }
+}
+
+
+
 /* HOME PAGE */
 
 /* Header/Title */
@@ -25,6 +33,18 @@ body,h1,h2,h3,h4,h5,h6,a,p{
 }
 .site-heading .site-heading-lower:hover{
   color: rgb(249,242,234) !important;
+}
+.intro-text p{
+  font-family: 'Lobster', cursive;
+}
+iframe{
+  width: 100%;
+  border-radius: 20px;
+}
+@media all and (min-width: 800px) {
+  .intro-text p{
+    font-size: 18px;
+  }
 }
 
 
@@ -49,9 +69,6 @@ body,h1,h2,h3,h4,h5,h6,a,p{
 }
 
 @media all and (max-width: 768px) {
-  #countdown  h1 {
-    /* font-size: calc(1.5rem * var(--smaller)); */
-  }
   
   #countdown li {
 padding-bottom: 0;
@@ -59,17 +76,16 @@ padding-bottom: 0;
   
   #countdown li span {
     font-size: 50px;
-    /* font-size: calc(3.375rem * var(--smaller)); */
   }
 }
 
 @media all and (max-width: 425px){
  #countdown ul{
-   display: flex;
-flex-direction: column;
-align-items: center;
-padding-left: 0;
- }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
 }
 
 /* ABOUT PAGE */
