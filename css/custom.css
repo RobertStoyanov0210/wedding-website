@@ -123,3 +123,48 @@ width: 50%;
 .socials a{
   color: #C2B7AA;
 }
+
+.lang-switcher{
+  display: none;
+}
+@media all and (min-width: 992px){
+  .lang-switcher{
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(61,46,100, 0.9);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}
+.lang-switcher a{
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+
+}
+.lang-switcher-mobile{
+  position: absolute;
+  top: 16px;
+  right: 25%;
+  color: #C2B7AA;
+  text-decoration: none;
+}
+
+@media all and (min-width: 380px) {
+  .lang-switcher-mobile{
+    right: 22%;
+  }
+}
+@media all and (min-width: 430px) {
+  .lang-switcher-mobile{
+    right: 17%;
+  }
+}
+@media all and (min-width: 580px) {
+  .lang-switcher-mobile{
+    right: 22%;
+  }
+}
+
